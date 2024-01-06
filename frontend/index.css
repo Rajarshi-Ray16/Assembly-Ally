@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to bottom, #2e65e4, #7692cc);
+    min-height: 100vh; /* Set a minimum height to maintain gradient consistency */
+    /* color: #212529; Dark text color */
+}
+
+/* .opposite-gradient {
+    background: linear-gradient(to bottom, #7692cc, #2e65e4);
+} */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.card {
+    /* margin-bottom: 25px; */
+    border: 20px double rgba(0, 0, 0, 0);
+    background-color: rgba(255,255,255,0);
+}
+
+.card-title {
+    color: #000;
+}
+
+.questionInput {
+    color: #000;
+}
+
+input[type="file"] {
+    display: none;
+}
+.classFileInput {
+    /* color: #ccc; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.delete-file {
+    cursor: pointer;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+@keyframes textAnimation {
+    0% { opacity: 1; letter-spacing: 8px; }
+    25% { opacity: 1; letter-spacing: 0px; }
+    50% { opacity: 1; letter-spacing: 0px; }
+    75% { opacity: 1; letter-spacing: 0px; }
+    100% { opacity: 1; letter-spacing: 0px; }
+}
+
+#innovationText {
+    animation: textAnimation 3.5s ease-in-out;
+    animation-delay: 0s;
+}
+
+.file-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.file-item {
+    margin-right: 10px; /* Adjust margin as needed */
+    margin-bottom: 10px; /* Add margin to create space between rows */
+}
+
