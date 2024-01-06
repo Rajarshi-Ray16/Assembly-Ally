@@ -33,14 +33,19 @@ body {
 input[type="file"] {
     display: none;
 }
+
 .classFileInput {
-    /* color: #ccc; */
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
     border: 1px solid #ccc;
-    border-radius: 10%;
+    border-radius: 10px;
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
+}
+
+.classFileInput:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .delete-file {
